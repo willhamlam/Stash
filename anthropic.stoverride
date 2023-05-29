@@ -1,22 +1,10 @@
 name: Add Anthropic proxies for AmyTelecom & ImmTelecom
+desc: Add proxy-groups and rules for Anthropic AI, using US ips.
 
 proxy-groups:
   - name: 🤖 Anthropic
     type: select
     proxies:
-      - AmyTelecom
-      - DIRECT
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港 08
-      - 🇭🇰 香港 09
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
       - 🇺🇸 美国 01
       - 🇺🇸 美国 02
       - 🇺🇸 美国 03
@@ -30,23 +18,6 @@ proxy-groups:
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 🇯🇵 日本 05
-      - 🇯🇵 日本 06
-      - 🇯🇵 日本 07
-      - 🇯🇵 日本 08
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇨🇳 台湾 03
-      - 🇨🇳 台湾 04
-      - 🇨🇳 台湾 05
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 04
 rules:
   - DOMAIN-KEYWORD,anthropic.com,🤖 Anthropic
   - DOMAIN-KEYWORD,console.anthropic.com,🤖 Anthropic
